@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url(../assets/invaders.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#top-header {
+  flex-direction: column;
+  display: flex;
+}
+
+#top-elements {
+  flex-direction: row;
+  display: flex;
+  padding:20px
+}
+
+#logo {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+}
+
+.buttons {
+  text-align: center;
+  align-self: center;
+}
+
+#start-button {
+  padding-top: 6px;
+  width: 150px;
+  height: 30px;
+}
+
+#reset-button {
+  margin-top: 20px;
+  padding-top: 6px;
+  width: 150px;
+  height: 30px;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.grid-wrapper {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  height: 700px;
+  width: 700px;
+  
+}
+
+.grid div {
+  flex-grow: 1;
+  height: 5%;
+  width: 5%;
+}
+
+.grid div.player-ship {
+  background-image: url('../assets/player.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid div.alien-ships {
+  background-image: url('../assets/alien_animated.gif');
+  width: 35;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid div.player-laser {
+  background-image: url('../assets/laser.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.grid div.alien-laser {
+    background-image: url('../assets/laser.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.grid div.explosion {
+  background-image: url('../assets/explosion.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)file:///Users/borahm/Documents/development/Projects/Project%201%20-%20Space%20Invaders/index.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="./Space Invaders_files/main.css">
+    <script src="./Space Invaders_files/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <audio id="music"></audio>
+    <audio id="shoot"></audio>'
+    <audio id="explosion"></audio>
+    <audio id="game-start"></audio>
+    <audio id="game-ends"></audio>
+    <audio id="game-over"></audio>
+
+    <div id="top-header">
+      <div id="top-elements">
+        <div id="logo">
+          <img src="./Space Invaders_files/logo.gif" width="200px">
+        </div>
+        <div class="buttons">
+          <button id="start-button" onclick="this.blur()">Start</button>
+          <button id="reset-button">Reset</button>
+        </div>
+      </div>
+      <div id="game-stats">
+        <ul>
+          <li>lives: <span id="game-lifes">3</span></li>
+          <li>score: <span id="game-score">0</span></li>
+          <li>wave: <span id="game-wave">0</span></li>
+        </ul> 
+      </div>
+    </div>
+ 
+    <div class="grid-wrapper">
+      <div class="grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div class="alien-ships"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="player-ship"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+  
+</body></html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/app.js" charset="utf-8"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <audio id="music"></audio>
+    <audio id="shoot"></audio>'
+    <audio id="explosion"></audio>
+    <audio id="game-start"></audio>
+    <audio id="game-ends"></audio>
+    <audio id="game-over"></audio>
+
+    <div id='top-header'>
+      <div id='top-elements'>
+        <div  id='logo'>
+          <img src='assets/logo.gif' width='200px' ></Image>
+        </div>
+        <div class='buttons'>
+          <button id='start-button' onclick="this.blur()">Start</button>
+          <button id='reset-button'>Reset</button>
+        </div>
+      </div>
+      <div id='game-stats'>
+        <ul>
+          <li>lives: <span id='game-lifes'>3</span></li>
+          <li>score: <span id='game-score'>0</span></li>
+          <li>wave: <span id='game-wave'>0</span></li>
+        </ul> 
+      </div>
+    </div>
+   
+
+    
+    
+    <div class="grid-wrapper">
+      <div class="grid"></div>
+    </div>
+  </body>
+</html>
